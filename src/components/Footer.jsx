@@ -36,6 +36,7 @@ const Footer = () => {
             <h3 className='text-[20px] font-bold'>Get in touch</h3>
             <li>info@gmail.com</li>
             <li>+880123456789</li>
+            {/* This is Paros Rangsha Code */}
           </ul>
         </div>
       </div>
