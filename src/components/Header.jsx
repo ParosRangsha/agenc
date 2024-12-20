@@ -18,7 +18,7 @@ const Header = () => {
                 <img src={logo} alt="logo" />
             </div>
             <div className="menus w-[60%]">
-                <ul className={`absolute top-[100%] right-0 w-[20%] bg-[#555] h-[100vh] transition duration-[1s] ${show ?  'right-0': 'right-[-100%]'}`} style={{borderRadius:'10px 0 0 10px'}}>
+                <ul className={`absolute top-[100%] right-0 w-[20%] bg-[#555] h-[100vh] transition duration-[1s] ${show ?  'scale-0': 'scale-1'}`} style={{borderRadius:'10px 0 0 10px'}}>
                     <li>
                         <Link to='/' className='lg:py-[15px] py-[5px] block lg:px-[42px] text-[18px] font-bold text-[#fff] text-center'>Home</Link>
                     </li>
@@ -36,8 +36,8 @@ const Header = () => {
                     </li>
                 </ul>
             </div>
-            <div className='text-[#fff] p-[10px] bg-[#555]'>
-                {show? <GiCrossedBones onClick={handleshow}/> : <FaBars onClick={handleshow}/>}
+            <div>
+                {show? <a onClick={handleshow} className='p-[10px] bg-[#555] inline-block z-10'><GiCrossedBones onClick={handleshow} className='text-[#fff] z-10'/></a> : <a onClick={handleshow} className='p-[10px] bg-[#555] inline-block z-10'><FaBars onClick={handleshow} className='text-[#fff] z-10'/></a>}
             </div>
         </div>
     </div>
