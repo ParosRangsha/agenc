@@ -20,19 +20,19 @@ const Header = () => {
             <div className="menus w-[60%]">
                 <ul className={`absolute top-[100%] right-0 w-[30%] bg-[#555] h-[100vh] transition duration-[1s] ${show ?  'right-0': 'right-[-100%]'}`}>
                     <li>
-                        <Link to='/' className='lg:py-[15px] py-[5px] block px-[42px] text-[18px] font-bold text-[#fff]'>Home</Link>
+                        <Link to='/' className='lg:py-[15px] py-[5px] block lg:px-[42px] text-[18px] font-bold text-[#fff] text-center'>Home</Link>
                     </li>
                     <li>
-                        <Link to='/about' className='lg:py-[15px] py-[5px] block px-[42px] text-[18px] font-bold text-[#fff]'>About</Link>
+                        <Link to='/about' className='lg:py-[15px] py-[5px] block lg:px-[42px] text-[18px] font-bold text-[#fff] text-center'>About</Link>
                     </li>
                     <li>
-                        <Link to='/service' className='lg:py-[15px] py-[5px] block px-[42px] text-[18px] font-bold text-[#fff]'>Service</Link>
+                        <Link to='/service' className='lg:py-[15px] py-[5px] block lg:px-[42px] text-[18px] font-bold text-[#fff] text-center'>Service</Link>
                     </li>
                     <li>
-                        <Link to='/career' className='lg:py-[15px] py-[5px] block px-[42px] text-[18px] font-bold text-[#fff]'>Career</Link>
+                        <Link to='/career' className='lg:py-[15px] py-[5px] block lg:px-[42px] text-[18px] font-bold text-[#fff] text-center'>Career</Link>
                     </li>
                     <li>
-                        <Link to='/contact' className='lg:py-[15px] py-[5px] block px-[42px] text-[18px] font-bold text-[#fff]'>Contact</Link>
+                        <Link to='/contact' className='lg:py-[15px] py-[5px] block lg:px-[42px] text-[18px] font-bold text-[#fff] text-center'>Contact</Link>
                     </li>
                 </ul>
             </div>

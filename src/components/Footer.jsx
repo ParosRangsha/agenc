@@ -41,8 +41,9 @@ const Footer = () => {
               {/* This is Paros Rangsha Code */}
             </ul>
           </div>
-          <div className="ullist lg:hidden flex w-[100%] justify-center items-center ">
+          <div className="ullist lg:hidden flex w-[100%] justify-center items-start h-full">
             <ul>
+              <h3 className='text-[24px] font-bold'>Know more</h3>
               <li><Link to='/'>About</Link></li>
               <li><Link to='/'>Company</Link></li>
               <li><Link to='/'>Support</Link></li>
