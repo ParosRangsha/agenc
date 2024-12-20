@@ -8,10 +8,10 @@ import workF from '../img/work6.png'
 
 const Work = () => {
   return (
-    <div className="work py-[100px]">
+    <div className="work lg:py-[100px] py-[50px]">
         <div className="contain max-w-container mx-auto">
             <div className="heading w-[50%] mx-auto">
-                <h1 className='text-[45px] font-bold text-center py-[20px]'>Our Recent Work</h1>
+                <h1 className=' lg:text-[75px] text-[28px] font-bold text-center py-[20px]'>Our Recent Work</h1>
                 <p className='text-center text-[#555]'>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form.</p>
             </div>
             <div className="boxes flex flex-wrap justify-between">
